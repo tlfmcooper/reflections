@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    diff only displayed the lines with the difference between the two versions of files
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having easy access to the entire history of the file shows me how the file evolved throughout 
+    the development process and allows me to go to any previous version
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manually committing is that you only commit when you are ready to do so 
+    and you are in control of what you are committing. It also allows you to make a commit for each
+    logical feature change and avoid cluttering your commit history with unnecessary commits. 
+    The cons is that you may lose your progress for one reason or another before committing
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+   GIT allows to commit multiple files at once because they may be interdependent
+    so that a change made to one file may impact other files. If a commit contains
+    files that have not changed since the last commit, they won't be any impact on
+    those files
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log is used to see the whole history of commits
+    git diff is used to see the difference between 2 commits
+    commits are classified from most recent to least. The most recent (or last commit) is on top.	
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control gives me more confidence to experiment because I know that at any moment,
+   I could go to the most current and stable version using GIT or any previous version for that matter
+   using git checkout then the commit SHA1 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use GIT to merge changes, to create new branches for my directory and to collaborate on projects.
