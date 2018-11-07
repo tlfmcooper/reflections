@@ -1,6 +1,12 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-The staging area is a sort of transition between[D[D[D[D[D[D[D[Dlocaltion [D[D[D[D[D[D[D[D[D[D [C[Dlocation between the working directory and the git repository
+
+The staging area is a sort of transition between the working directory and the git repository
 Files are moved to the staging area when you are ready to commit them. You move files to the staging area
 by running the command git add "filename". Files are moved to the staging area before committing them
 because we only want to commit together files that are related and or changes to the same file that are related.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+To ensure that one commit is performed by logical change, the file is added to the staging area
+whenever we deemed that a logical change with the right size has been made to the file.
 
