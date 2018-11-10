@@ -1,5 +1,2 @@
-How do the diagrams help you visualize the branch structure?
-By running git log --graph --oneline commit1 commit2 commit3 ...
-You can have a vizualization of the history of commits
-on different branches
-
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches together is that one branch will include the contents for both
