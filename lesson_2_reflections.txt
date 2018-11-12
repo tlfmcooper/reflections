@@ -1,2 +1,4 @@
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-The result of merging two branches together is that one branch will include the contents for both
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The pros of automatic merging is that it's less time-consuming and hassle-free
+and the cons is that conflict will be created when the same files are modified by
+different people and Git cannot decide which one to keep.
