@@ -1,3 +1,13 @@
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-I might want to pull changes manually rather than Git doing it automatically because some changes 
-may not be enough to require a pull request
+
+I might want to pull changes manually rather than Git doing it automatically because some changes may not be enough to require a pull request
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks means you are cloning a third party repository on your GitHub 
+
+Clones means you are downloading/copying a repository from GitHub/local folder to another local folder on your laptop
+
+Branches is a label given to any of your commit uniquely identified with its SHA. New branches are created to try experimental features or another version of your master branch.
+
+
