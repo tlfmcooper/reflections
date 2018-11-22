@@ -10,4 +10,9 @@ Clones means you are downloading/copying a repository from GitHub/local folder t
 
 Branches is a label given to any of your commit uniquely identified with its SHA. New branches are created to try experimental features or another version of your master branch.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit is that it allows you to have the latest updates to the remote if you are going to be offline.
+You can then work on your master and merge both branches at a later time before pushing the updates to remote.
+
 
